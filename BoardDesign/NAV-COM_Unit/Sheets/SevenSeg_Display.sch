@@ -1,0 +1,86 @@
+EESchema Schematic File Version 4
+LIBS:OpenSimRadio-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74HC595 U5
+U 1 1 5F7BC57F
+P 2300 2500
+AR Path="/5F6409BB/5F7BC57F" Ref="U5"  Part="1" 
+AR Path="/5F640A7C/5F7BC57F" Ref="U10"  Part="1" 
+F 0 "U10" H 2300 3278 50  0000 C CNN
+F 1 "74HC595" H 2300 3187 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 2300 2500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 2300 2500 50  0001 C CNN
+	1    2300 2500
+	1    0    0    -1  
+$EndComp
+Text GLabel 1650 2700 0    50   Output ~ 0
+BRT_PWM
+Wire Wire Line
+	1650 2700 1900 2700
+$Comp
+L OpenSimRadio:SP420281N U6
+U 1 1 5F7C1570
+P 4000 2450
+AR Path="/5F6409BB/5F7C1570" Ref="U6"  Part="1" 
+AR Path="/5F640A7C/5F7C1570" Ref="U11"  Part="1" 
+F 0 "U11" H 5300 3450 50  0000 L CNN
+F 1 "SP420281N" H 5300 3350 50  0000 L CNN
+F 2 "" H 4000 2450 50  0001 C CNN
+F 3 "" H 4000 2450 50  0001 C CNN
+	1    4000 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenSimRadio:SP420281N U7
+U 1 1 5F7C16E7
+P 5200 2450
+AR Path="/5F6409BB/5F7C16E7" Ref="U7"  Part="1" 
+AR Path="/5F640A7C/5F7C16E7" Ref="U12"  Part="1" 
+F 0 "U12" H 6600 3450 50  0000 L CNN
+F 1 "SP420281N" H 6600 3350 50  0000 L CNN
+F 2 "" H 5200 2450 50  0001 C CNN
+F 3 "" H 5200 2450 50  0001 C CNN
+	1    5200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenSimRadio:SP420281N U8
+U 1 1 5F7C19BE
+P 7050 2500
+AR Path="/5F6409BB/5F7C19BE" Ref="U8"  Part="1" 
+AR Path="/5F640A7C/5F7C19BE" Ref="U13"  Part="1" 
+F 0 "U13" H 8350 3500 50  0000 L CNN
+F 1 "SP420281N" H 8350 3400 50  0000 L CNN
+F 2 "" H 7050 2500 50  0001 C CNN
+F 3 "" H 7050 2500 50  0001 C CNN
+	1    7050 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenSimRadio:SP420281N U9
+U 1 1 5F7C19C5
+P 8250 2500
+AR Path="/5F6409BB/5F7C19C5" Ref="U9"  Part="1" 
+AR Path="/5F640A7C/5F7C19C5" Ref="U14"  Part="1" 
+F 0 "U14" H 9650 3500 50  0000 L CNN
+F 1 "SP420281N" H 9650 3400 50  0000 L CNN
+F 2 "" H 8250 2500 50  0001 C CNN
+F 3 "" H 8250 2500 50  0001 C CNN
+	1    8250 2500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
