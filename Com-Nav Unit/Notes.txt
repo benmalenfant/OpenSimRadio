@@ -1,0 +1,43 @@
+MCU : STM32F411CEU6
+Why : large availability, large amount of ram and rom, proven on stm32duino, common to other projects.
+
+Crystal : X322525MOB4SI
+Why     : Probably required for usb timings, basic part at lcsc, matches blackpill
+
+Rotary encoder : EC12E1240301 + EC12D1524403 for the central knob
+why : low profile, allows for minimal depth between 7 seg and faceplate
+
+USB connector
+G-Switch GT-USB-7055BB
+
+921-111A1010Y10200
+
+
+7 segments : FJ2352BH
+Why : available at lcsc, uses 0.25 format to replicate  GA pannels, 3 digits with points.
+
+Scanning strategy : have the 7 segments digits connected together, separate the com and nav zones, scan the anodes using shift registers
+
+Shift register : 74HC595D,118
+Why : basic part at jlcpcb, most common shift register
+
+Transistor : FJ2352BH
+Why : shift register limited to 25ma per pin, this is the current draw of a single segment
+why : Basic part at jlcpcb, cheap, decent max current
+
+Board setup : 
+1x 50*150 mm 2 layer : per unit
+	5 : 6.9  		-- 1.38
+	100 : 83.8		-- 0.838
+	
+1x 50*150 mm 4 layer : per unit
+	5 : 27.9  		-- 5.58
+	100 : 84		-- 0.84
+	
+1x 50*75 mm 4 layer : per unit
+	5 : 7  			-- 1.4 * 2 = 2.8
+	100 : 54.1		-- 0.54 * 2 = 1.08
+	+ connector assembly cost + final assembly complexity
+
+Choice 	: 50*150 2 layers
+why 	: should not be too hard to route, offers best cost on low volume and high volume
