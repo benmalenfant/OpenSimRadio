@@ -61,7 +61,7 @@ void display_init(void)
     LL_TIM_SetSlaveMode(TIM2, TIM_SLAVEMODE_EXTERNAL1);
 
     // Configure the Data pin (channel 1) to output once every 15 clock cycle to shift in a bit
-    active_digit_timer.setMode(CHANNEL_DATA, TIMER_OUTPUT_COMPARE_PWM1, PIN_DATA);
+    active_digit_timer.setMode(CHANNEL_DATA, TIMER_OUTPUT_COMPARE_PWM2, PIN_DATA);
     //set the output to on if the counter is equal or smaller to 0
     active_digit_timer.setCaptureCompare(CHANNEL_DATA, 0, TICK_COMPARE_FORMAT);
 
