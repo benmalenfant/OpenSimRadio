@@ -16,6 +16,7 @@ HardwareTimer active_digit_timer(TIM2);
 void display_update(void)
 {
     //use TIM2->CNT for active digit
+    GPIOB->ODR = ~GPIOB->ODR;
 }
 
 void display_init(void)
@@ -29,7 +30,7 @@ void display_init(void)
     LL_TIM_SetTriggerOutput(TIM3, TIM_TRGO_UPDATE);
 
     // Set timer period to 60us to get around 1kHz refresh rate
-    clock_timer.setOverflow(60, MICROSEC_FORMAT);
+    clock_timer.setOverflow(200, MICROSEC_FORMAT);
 
     // Set channel 1 (OE) to be off 2% of duty cycle
     // This will be used to dim the display, the greater the value, the dimmer
@@ -39,7 +40,7 @@ void display_init(void)
     // Set channel 2 (CLK) to be on 1% of duty cycle
     clock_timer.setMode(CHANNEL_CLK, TIMER_OUTPUT_COMPARE_PWM1, PIN_CLK);
     //Clock set to a short pulse, period around 600ns
-    clock_timer.setCaptureCompare(CHANNEL_CLK, 30, TICK_COMPARE_FORMAT);
+    clock_timer.setCaptureCompare(CHANNEL_CLK, 60, TICK_COMPARE_FORMAT);
 
     // Attach the interrupt that will handle the digit update from array
     clock_timer.attachInterrupt(CHANNEL_CLK,display_update);
@@ -65,9 +66,24 @@ void display_init(void)
     //set the output to on if the counter is equal or smaller to 0
     active_digit_timer.setCaptureCompare(CHANNEL_DATA, 0, TICK_COMPARE_FORMAT);
 
+    LL_TIM_SetUpdateSource(TIM3,LL_TIM_UPDATESOURCE_COUNTER);
+
     // Start the timers and enable the pwm outputs
     clock_timer.resume();
     active_digit_timer.resume();
+
+    delay(1);//let time for all bits to shift
+
+    //Get arduino to init GPIOB
+    pinMode(PB0,OUTPUT);
+
+    //Set all digits pins to off (3.3V)
+    GPIOB->ODR = 0xffffFFFF;
+    //Set port B as output
+    GPIOB->MODER = 0x55555555;
+
+    // Attach the interrupt that will handle the digit update from array
+    clock_timer.attachInterrupt(CHANNEL_CLK,display_update);
 }
 
 void display_set_brightness(uint8_t brightness){
