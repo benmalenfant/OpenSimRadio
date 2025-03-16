@@ -28,8 +28,8 @@ void display_init(void)
     // set the trgo output for the second timer
     LL_TIM_SetTriggerOutput(TIM3, TIM_TRGO_UPDATE);
 
-    // Set timer period to 300us to get around 200hz refresh rate
-    clock_timer.setOverflow(300, MICROSEC_FORMAT);
+    // Set timer period to 60us to get around 1kHz refresh rate
+    clock_timer.setOverflow(60, MICROSEC_FORMAT);
 
     // Set channel 1 (OE) to be off 2% of duty cycle
     // This will be used to dim the display, the greater the value, the dimmer
@@ -38,8 +38,8 @@ void display_init(void)
 
     // Set channel 2 (CLK) to be on 1% of duty cycle
     clock_timer.setMode(CHANNEL_CLK, TIMER_OUTPUT_COMPARE_PWM1, PIN_CLK);
-    //Clock set to a 2 us large pulse (Due to centered)
-    clock_timer.setCaptureCompare(CHANNEL_CLK, 1, MICROSEC_COMPARE_FORMAT);
+    //Clock set to a short pulse, period around 600ns
+    clock_timer.setCaptureCompare(CHANNEL_CLK, 30, TICK_COMPARE_FORMAT);
 
     // Attach the interrupt that will handle the digit update from array
     clock_timer.attachInterrupt(CHANNEL_CLK,display_update);
