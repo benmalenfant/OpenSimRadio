@@ -7,9 +7,11 @@ void setup()
     delay(1000);
     Serial.println("Begin");
     display_init();
+    display_set_brightness(100);
 }
+
 
 void loop()
 {
-    display_set_brightness(100);
+    delay(100);
 }
