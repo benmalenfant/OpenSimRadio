@@ -3557,24 +3557,23 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:RotaryEncoder_Switch_MP"
+		(symbol "Encoders:Dual_Encoder_Push"
 			(pin_names
-				(offset 0.254)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 8.89 0)
+				(at -1.27 7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "RotaryEncoder_Switch_MP"
-				(at 0 6.35 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3582,33 +3581,6 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -3.81 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "rotary switch encoder switch push button"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3617,7 +3589,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "RotaryEncoder*Switch*"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3626,7 +3598,24 @@
 					(hide yes)
 				)
 			)
-			(symbol "RotaryEncoder_Switch_MP_0_1"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Dual_Encoder_Push_0_1"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -3780,13 +3769,15 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "Dual_Encoder_Push_1_1"
 				(polyline
 					(pts
 						(xy 3.81 1.016) (xy 3.81 -1.016)
 					)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -3798,7 +3789,7 @@
 					)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -3809,7 +3800,7 @@
 					(radius 0.127)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -3820,7 +3811,7 @@
 					(radius 0.127)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -3832,7 +3823,7 @@
 					)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -3844,25 +3835,23 @@
 					)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "RotaryEncoder_Switch_MP_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "A"
+					(name "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A"
+					(number "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3873,14 +3862,14 @@
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "C"
+					(name "C1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C"
+					(number "C1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3891,14 +3880,14 @@
 				(pin passive line
 					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "B"
+					(name "B1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B"
+					(number "B1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3927,14 +3916,14 @@
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "S1"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "S1"
+					(number "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3945,14 +3934,14 @@
 				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name "S2"
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "S2"
+					(number "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3961,244 +3950,18 @@
 					)
 				)
 			)
-			(embedded_fonts no)
-		)
-		(symbol "Encoders:RotaryEncoder_MP"
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW1"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RotaryEncoder_MP"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -3.81 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "rotary switch encoder switch push button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "RotaryEncoder*Switch*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RotaryEncoder_MP_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.81 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -1.778) (xy -0.635 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.381 0)
-					(radius 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.381 -1.778) (xy -0.381 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.381 -2.794)
-					(mid -3.0988 -0.0635)
-					(end -0.381 2.667)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 1.778) (xy -0.127 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RotaryEncoder_MP_1_1"
+			(symbol "Dual_Encoder_Push_2_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "A"
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A"
+					(number "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4209,14 +3972,14 @@
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "C"
+					(name "C2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C"
+					(number "C2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4227,32 +3990,14 @@
 				(pin passive line
 					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "B"
+					(name "B2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
+					(number "B2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7064,128 +6809,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -7311,6 +6934,24 @@
 		(uuid "01690f58-3583-4de7-ac18-1e7598d55316")
 	)
 	(junction
+		(at 133.35 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "049d9d6e-0091-4e01-a2c4-8d00a7870e13")
+	)
+	(junction
+		(at 168.91 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07016730-d726-431e-aa80-ba2ebb8282d6")
+	)
+	(junction
+		(at 242.57 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0efdae1b-5313-4b31-902f-dd7498a6af3f")
+	)
+	(junction
 		(at 68.58 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7321,12 +6962,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1689eeff-53dd-4843-a681-ed9fdc669284")
-	)
-	(junction
-		(at 168.91 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a728f5e-ba3b-474c-a422-b301e144929d")
 	)
 	(junction
 		(at 121.92 40.64)
@@ -7345,12 +6980,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24121ae5-5ee3-4374-a568-15fe3a1cd463")
-	)
-	(junction
-		(at 133.35 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24ec48e1-5b2e-47c7-97a8-290ee747be77")
 	)
 	(junction
 		(at 179.07 53.34)
@@ -7407,22 +7036,10 @@
 		(uuid "402dbd29-d18b-4772-98a3-440695152195")
 	)
 	(junction
-		(at 278.13 166.37)
+		(at 313.69 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "41c2009e-c0fa-4cbb-8fd4-a528412f1d79")
-	)
-	(junction
-		(at 133.35 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42e56d24-7f5c-4b90-8d1c-6442ce2e3dfa")
-	)
-	(junction
-		(at 278.13 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4699350f-60ec-4b8e-86f8-23509b3745bc")
+		(uuid "4426d7a3-f27c-4d2f-a355-3b66f7b2a7db")
 	)
 	(junction
 		(at 313.69 67.31)
@@ -7447,12 +7064,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5664205a-a589-46b1-8b43-b9f1dda1001b")
-	)
-	(junction
-		(at 168.91 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59469e44-c204-47db-8d64-45d5a7dba330")
 	)
 	(junction
 		(at 106.68 97.79)
@@ -7485,12 +7096,6 @@
 		(uuid "6cd8e6e5-8af3-43b0-a98d-0f4fac12d89d")
 	)
 	(junction
-		(at 242.57 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6cef50ce-41ae-4ece-9648-eebd63dd306d")
-	)
-	(junction
 		(at 364.49 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7501,12 +7106,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f3947f3-449e-4bc9-ac07-55a1c1ee3206")
-	)
-	(junction
-		(at 242.57 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71442aaf-06f0-4b85-a51e-0b870637c6e0")
 	)
 	(junction
 		(at 106.68 40.64)
@@ -7545,6 +7144,12 @@
 		(uuid "842a99d1-5649-417e-9e9a-7891517bfdf5")
 	)
 	(junction
+		(at 168.91 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8568a0ce-d120-40f3-ad2a-7f3597d097cb")
+	)
+	(junction
 		(at 68.58 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7561,6 +7166,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88db62a3-0744-480e-b037-686bded7c5c2")
+	)
+	(junction
+		(at 278.13 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b78cd58-fe7c-4623-8bc8-87ff645ae1b2")
 	)
 	(junction
 		(at 364.49 209.55)
@@ -7701,6 +7312,12 @@
 		(uuid "c50e41f1-3def-4bec-b5e8-892e1b34263d")
 	)
 	(junction
+		(at 313.69 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6dab2b5-fc8c-4a45-b59f-709968dfd7b2")
+	)
+	(junction
 		(at 311.15 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7755,6 +7372,18 @@
 		(uuid "d2da16e5-7f44-434d-a1bc-7fa3482bff53")
 	)
 	(junction
+		(at 133.35 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4d774ea-3118-4b61-bb34-c16da79d26b3")
+	)
+	(junction
+		(at 278.13 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d987bc94-32b9-4caa-b789-6433ebbac4a3")
+	)
+	(junction
 		(at 68.58 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7765,6 +7394,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df1af986-5b8f-486b-83d5-10a834a26763")
+	)
+	(junction
+		(at 242.57 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e246935b-b4e8-4215-9821-3bfb674f2c67")
 	)
 	(junction
 		(at 313.69 104.14)
@@ -7795,6 +7430,82 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f86fe969-e99c-4717-970f-03b2ab10f000")
+	)
+	(no_connect
+		(at 387.35 217.17)
+		(uuid "0fbca21c-3549-45b6-9e02-a1dfc52b9910")
+	)
+	(no_connect
+		(at 387.35 49.53)
+		(uuid "2642ace4-14ff-4c9b-823f-bd7eb09169f6")
+	)
+	(no_connect
+		(at 276.86 109.22)
+		(uuid "39e03845-88ed-4cbb-a4c6-8b176a9e360b")
+	)
+	(no_connect
+		(at 349.25 205.74)
+		(uuid "5d21fdb5-9521-4e47-86b2-26e6c5257b82")
+	)
+	(no_connect
+		(at 387.35 207.01)
+		(uuid "93fe6e2f-4dd7-4e3c-9de4-a03eaf69244a")
+	)
+	(no_connect
+		(at 387.35 86.36)
+		(uuid "96bdde8e-bd6a-4eb5-8526-b4c7d74c9370")
+	)
+	(no_connect
+		(at 224.79 34.29)
+		(uuid "975ccdb9-7b69-400d-92b9-1c71559bd8b1")
+	)
+	(no_connect
+		(at 387.35 212.09)
+		(uuid "9bc4b2de-d09f-4da8-88b2-4665714330f9")
+	)
+	(no_connect
+		(at 212.09 72.39)
+		(uuid "9e1be0d8-2aab-40b2-b1a7-826bc0fd0fea")
+	)
+	(no_connect
+		(at 289.56 109.22)
+		(uuid "a8a3b521-7fd2-4389-9bbe-b2d9549fcf79")
+	)
+	(no_connect
+		(at 387.35 214.63)
+		(uuid "b2b43690-ade6-4ddf-8bec-5c1f96a95a03")
+	)
+	(no_connect
+		(at 387.35 123.19)
+		(uuid "b6017644-64c2-40d3-ad4e-137cf95012cf")
+	)
+	(no_connect
+		(at 212.09 62.23)
+		(uuid "c4d708a0-430d-42c3-9405-6a51de960d1a")
+	)
+	(no_connect
+		(at 212.09 64.77)
+		(uuid "cc6f327c-c6c9-4cb7-994b-0a030740fdae")
+	)
+	(no_connect
+		(at 387.35 160.02)
+		(uuid "cdc4be6d-bdef-46eb-bc6b-296b9274495e")
+	)
+	(no_connect
+		(at 349.25 210.82)
+		(uuid "cde45c76-4125-4365-9a63-1da5dac9e126")
+	)
+	(no_connect
+		(at 387.35 209.55)
+		(uuid "d475382e-6b3b-42a6-9feb-e3c4aff77e35")
+	)
+	(no_connect
+		(at 349.25 203.2)
+		(uuid "e2722bba-432e-459a-83d6-d5e95de2ea11")
+	)
+	(no_connect
+		(at 387.35 196.85)
+		(uuid "fd6ef706-f6e9-43d9-a8ab-7ed0c17e34bc")
 	)
 	(bus_entry
 		(at 118.11 226.06)
@@ -9448,16 +9159,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 173.99) (xy 270.51 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0539926e-d8c8-4cd4-a972-43e720d45aee")
-	)
-	(wire
-		(pts
 			(xy 351.79 77.47) (xy 351.79 87.63)
 		)
 		(stroke
@@ -10296,6 +9997,16 @@
 		)
 		(uuid "2165ba33-41d6-43f7-be1a-500ad7384a8a")
 	)
+	(wire
+		(pts
+			(xy 313.69 148.59) (xy 328.93 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216e6462-4ccc-4370-8c72-75f3006e7dfb")
+	)
 	(bus
 		(pts
 			(xy 412.75 231.14) (xy 302.26 231.14)
@@ -10876,6 +10587,16 @@
 		)
 		(uuid "37d473f0-6ca3-4ac7-a6e6-cf48839acd9b")
 	)
+	(wire
+		(pts
+			(xy 313.69 148.59) (xy 313.69 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3898ad46-71e4-4773-b963-0e149f763ae3")
+	)
 	(bus
 		(pts
 			(xy 412.75 177.8) (xy 412.75 180.34)
@@ -11008,7 +10729,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 111.76) (xy 313.69 156.21)
+			(xy 313.69 111.76) (xy 313.69 148.59)
 		)
 		(stroke
 			(width 0)
@@ -11578,6 +11299,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 193.04) (xy 313.69 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fdac2aa-0c2c-4503-a858-7fafafe43197")
+	)
+	(wire
+		(pts
 			(xy 246.38 166.37) (xy 242.57 166.37)
 		)
 		(stroke
@@ -11715,16 +11446,6 @@
 			(type default)
 		)
 		(uuid "53020488-a6ae-4a31-be7a-f169e0ee49ae")
-	)
-	(wire
-		(pts
-			(xy 140.97 173.99) (xy 140.97 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "538023c0-dd5a-410b-a3da-0e320c892e00")
 	)
 	(wire
 		(pts
@@ -14288,7 +14009,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 156.21) (xy 313.69 200.66)
+			(xy 313.69 156.21) (xy 313.69 193.04)
 		)
 		(stroke
 			(width 0)
@@ -14335,16 +14056,6 @@
 			(type default)
 		)
 		(uuid "a6805fa6-8821-4da6-ad96-fccbc27f0519")
-	)
-	(wire
-		(pts
-			(xy 121.92 21.59) (xy 121.92 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a72d1e36-1f7b-45d0-bc34-20a2b9e1b5c6")
 	)
 	(wire
 		(pts
@@ -17028,6 +16739,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 193.04) (xy 328.93 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff09e9ea-e948-4642-8b20-0a56d7fb1385")
+	)
+	(wire
+		(pts
 			(xy 339.09 83.82) (xy 339.09 82.55)
 		)
 		(stroke
@@ -17136,7 +16857,7 @@
 		)
 		(uuid "0866e40d-0fb2-4fe7-8b43-638e1f9a7a6f")
 	)
-	(label "USB_D-"
+	(label "USB_DN"
 		(at 256.54 69.85 180)
 		(effects
 			(font
@@ -17476,7 +17197,7 @@
 		)
 		(uuid "354bfc69-03fa-4827-9810-1a4da06edee3")
 	)
-	(label "USB_D+"
+	(label "USB_DP"
 		(at 256.54 72.39 180)
 		(effects
 			(font
@@ -19176,7 +18897,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0115ce3d-2211-474b-a273-7fea3ebc4a0c")
-		(property "Reference" "SW7"
+		(property "Reference" "SW3"
 			(at 195.58 158.496 90)
 			(effects
 				(font
@@ -19229,7 +18950,7 @@
 		(instances
 			(project "Com-Nav-Radio"
 				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
-					(reference "SW7")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -19427,6 +19148,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19466,6 +19188,94 @@
 			(project "Com-Nav-Radio"
 				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Encoders:Dual_Encoder_Push")
+		(at 176.53 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08d3f0c1-29cd-4ec7-9a83-62783fbd2e5f")
+		(property "Reference" "SW1"
+			(at 176.276 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 176.53 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B2"
+			(uuid "d47a6337-d1a0-44ae-9254-081f9c0ae9ad")
+		)
+		(pin "A2"
+			(uuid "1f5353b7-3fa7-4c4e-8dc4-93b4a79e5fbc")
+		)
+		(pin "MP"
+			(uuid "f69b741e-bd92-4a17-96d5-e1cada5df84e")
+		)
+		(pin "C2"
+			(uuid "c877d6e1-7bd4-42f1-a4c1-10c0e960dd02")
+		)
+		(pin "C1"
+			(uuid "a2dbf887-70a2-4f69-ae57-744bb9b431c5")
+		)
+		(pin "B1"
+			(uuid "c3a84dc6-b80a-4cd0-9ed5-7f25d605de45")
+		)
+		(pin "E"
+			(uuid "e454360b-d677-4e08-94b2-5e6badf5317c")
+		)
+		(pin "D"
+			(uuid "fa80ab88-68a0-434c-94f9-4238c173735d")
+		)
+		(pin "A1"
+			(uuid "bea3ed8c-4c53-4453-8e84-4f8a6b741857")
+		)
+		(instances
+			(project ""
+				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -19942,95 +19752,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:RotaryEncoder_Switch_MP")
-		(at 176.53 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "120940f4-a5b5-41c9-8a28-adb529665ab1")
-		(property "Reference" "SW3"
-			(at 176.53 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EC12D1524403"
-			(at 176.53 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Encoder:EC12D1524403"
-			(at 172.72 159.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
-			(at 176.53 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "EC12D1524403"
-			(at 176.53 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S2"
-			(uuid "67b539a7-31ef-4609-a239-8f79ea9ee31c")
-		)
-		(pin "A"
-			(uuid "3aa3df3c-9db5-4fb4-9c21-73e0605a07a1")
-		)
-		(pin "MP"
-			(uuid "df129010-8c3a-4d84-a83a-1e9343fafbc6")
-		)
-		(pin "C"
-			(uuid "8d2e24ae-7995-47ef-88b4-39c6c72575e6")
-		)
-		(pin "B"
-			(uuid "01fe8f7c-e48e-4ac8-9b3e-1d94825b0daa")
-		)
-		(pin "S1"
-			(uuid "15b448b9-f922-466c-9c34-5b1f5e6c4ec6")
-		)
-		(instances
-			(project "Com-Nav-Radio"
-				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 273.05 24.13 0)
 		(unit 1)
@@ -20367,6 +20088,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20406,91 +20128,6 @@
 			(project "Com-Nav-Radio"
 				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
 					(reference "U14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Encoders:RotaryEncoder_MP")
-		(at 270.51 163.83 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "192b56a4-353b-4ed0-9369-3e65036f88bd")
-		(property "Reference" "SW2"
-			(at 273.304 154.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EC12E1240301"
-			(at 278.13 156.972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Encoder:EC12E1240301"
-			(at 274.32 159.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
-			(at 270.51 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "EC12E1240301"
-			(at 270.51 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "0775ee58-7ced-4c84-998f-63a164071428")
-		)
-		(pin "B"
-			(uuid "e7515ea4-b9f7-4599-ad80-5aa3bf93d2af")
-		)
-		(pin "MP"
-			(uuid "f35bc9c3-7074-4324-8b73-736e8ac00508")
-		)
-		(pin "C"
-			(uuid "a915f35a-6f3b-4456-a43f-d605f95bae32")
-		)
-		(instances
-			(project ""
-				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -20689,6 +20326,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21086,72 +20724,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 270.51 173.99 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f6c3169-3b34-4227-9158-2e93897fe743")
-		(property "Reference" "#PWR034"
-			(at 270.51 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 267.97 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 270.51 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "588f384c-381d-43f5-9d67-b70d97c39b48")
-		)
-		(instances
-			(project "Com-Nav-Radio"
-				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 377.19 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21530,7 +21102,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "274b453d-dd3a-4dce-8e58-ea49822d3318")
-		(property "Reference" "SW8"
+		(property "Reference" "SW4"
 			(at 203.454 158.242 90)
 			(effects
 				(font
@@ -21583,8 +21155,98 @@
 		(instances
 			(project "Com-Nav-Radio"
 				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
-					(reference "SW8")
+					(reference "SW4")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Encoders:Dual_Encoder_Push")
+		(at 140.97 163.83 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29d3fc73-e57b-4659-b5d1-096b607eb15c")
+		(property "Reference" "SW1"
+			(at 138.176 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 147.32 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B2"
+			(uuid "d47a6337-d1a0-44ae-9254-081f9c0ae9ad")
+		)
+		(pin "A2"
+			(uuid "1f5353b7-3fa7-4c4e-8dc4-93b4a79e5fbc")
+		)
+		(pin "MP"
+			(uuid "f69b741e-bd92-4a17-96d5-e1cada5df84e")
+		)
+		(pin "C2"
+			(uuid "c877d6e1-7bd4-42f1-a4c1-10c0e960dd02")
+		)
+		(pin "C1"
+			(uuid "a2dbf887-70a2-4f69-ae57-744bb9b431c5")
+		)
+		(pin "B1"
+			(uuid "c3a84dc6-b80a-4cd0-9ed5-7f25d605de45")
+		)
+		(pin "E"
+			(uuid "e454360b-d677-4e08-94b2-5e6badf5317c")
+		)
+		(pin "D"
+			(uuid "fa80ab88-68a0-434c-94f9-4238c173735d")
+		)
+		(pin "A1"
+			(uuid "bea3ed8c-4c53-4453-8e84-4f8a6b741857")
+		)
+		(instances
+			(project ""
+				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
+					(reference "SW1")
+					(unit 2)
 				)
 			)
 		)
@@ -21649,6 +21311,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -23002,8 +22665,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4813af04-eaa9-4cb0-8ca6-7b0535453152")
-		(property "Reference" "SW10"
-			(at 219.456 159.258 90)
+		(property "Reference" "SW6"
+			(at 219.456 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23055,7 +22718,7 @@
 		(instances
 			(project "Com-Nav-Radio"
 				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
-					(reference "SW10")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -23591,6 +23254,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -25623,6 +25287,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Encoders:Dual_Encoder_Push")
+		(at 234.95 163.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75f0c048-7d7a-470b-8fb8-b2e7c5d8f92c")
+		(property "Reference" "SW2"
+			(at 234.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 234.95 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B2"
+			(uuid "d47a6337-d1a0-44ae-9254-081f9c0ae9ad")
+		)
+		(pin "A2"
+			(uuid "1f5353b7-3fa7-4c4e-8dc4-93b4a79e5fbc")
+		)
+		(pin "MP"
+			(uuid "8dbf088c-72d2-40ac-b53f-5e89b2cbe5a3")
+		)
+		(pin "C2"
+			(uuid "c877d6e1-7bd4-42f1-a4c1-10c0e960dd02")
+		)
+		(pin "C1"
+			(uuid "8e54947c-5b03-4ea8-8a7a-b28dc34793dc")
+		)
+		(pin "B1"
+			(uuid "be119116-5c28-44ef-a860-76652b483d0d")
+		)
+		(pin "E"
+			(uuid "8993aa56-4202-4bb5-a815-f98a9b011c51")
+		)
+		(pin "D"
+			(uuid "5d302fee-5788-4dec-bb1c-0964a01666d9")
+		)
+		(pin "A1"
+			(uuid "da435939-a185-41d8-8476-3445d1e58169")
+		)
+		(instances
+			(project "Com-Nav-Radio"
+				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
 		(at 35.56 38.1 0)
 		(unit 1)
@@ -26558,6 +26311,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -26975,6 +26729,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -27096,34 +26851,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:RotaryEncoder_Switch_MP")
-		(at 234.95 163.83 0)
-		(mirror y)
+		(lib_id "power:+3.3V")
+		(at 270.51 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95e33f12-49dd-4de7-a484-86737623b466")
-		(property "Reference" "SW1"
-			(at 234.95 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EC12D1524403"
-			(at 234.95 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Encoder:EC12D1524403"
-			(at 238.76 159.766 0)
+		(uuid "9a3f61d7-e083-4ea5-a401-015edf8f9468")
+		(property "Reference" "#PWR069"
+			(at 270.51 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27131,8 +26868,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 234.95 176.53 0)
+		(property "Value" "+3.3V"
+			(at 265.938 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27140,8 +26885,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
-			(at 234.95 179.07 0)
+		(property "Datasheet" ""
+			(at 270.51 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27149,8 +26894,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "EC12D1524403"
-			(at 234.95 163.83 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 270.51 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27158,28 +26903,13 @@
 				(hide yes)
 			)
 		)
-		(pin "S2"
-			(uuid "934a0110-0384-414f-8935-b15dd071fce9")
-		)
-		(pin "A"
-			(uuid "1f4a55f9-26c0-4485-8a96-f0a7eea02f06")
-		)
-		(pin "MP"
-			(uuid "ad44b6f4-f3b3-453b-ac0f-804a9285b812")
-		)
-		(pin "C"
-			(uuid "bb471256-25b6-4fa5-807b-3ae87253669e")
-		)
-		(pin "B"
-			(uuid "f14b4f7e-fb1e-43ef-b6f1-b58d8624955a")
-		)
-		(pin "S1"
-			(uuid "3459ee30-75ae-4fcf-970d-c1e79f26a6d1")
+		(pin "1"
+			(uuid "73f9588d-be9b-4762-af54-70b5c22767f3")
 		)
 		(instances
-			(project ""
+			(project "Com-Nav-Radio"
 				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
-					(reference "SW1")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -28064,6 +27794,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -28714,71 +28445,6 @@
 			(project "Com-Nav-Radio"
 				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 140.97 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3157bd9-e6e1-47f1-ab6a-aa5afdec68ab")
-		(property "Reference" "#PWR043"
-			(at 140.97 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 143.51 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9be5485-532c-4ec4-a1c1-9bfe465f1c50")
-		)
-		(instances
-			(project "Com-Nav-Radio"
-				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -30231,6 +29897,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -30270,6 +29937,71 @@
 			(project "Com-Nav-Radio"
 				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 278.13 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4ce315f-52fd-4cb0-9153-0f142187c84e")
+		(property "Reference" "#PWR076"
+			(at 278.13 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 273.558 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 278.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6470e17f-57f0-428c-80fe-d06ab8f83fad")
+		)
+		(instances
+			(project "Com-Nav-Radio"
+				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -30336,6 +30068,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -30375,71 +30108,6 @@
 			(project "Com-Nav-Radio"
 				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 270.51 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6d54d1b-d114-4d15-97e8-38e1b74dc309")
-		(property "Reference" "#PWR069"
-			(at 270.51 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 270.51 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b18399cb-4c28-433b-b094-9a73647df002")
-		)
-		(instances
-			(project "Com-Nav-Radio"
-				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
-					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -31111,6 +30779,97 @@
 				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
 					(reference "R58")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Encoders:Dual_Encoder_Push")
+		(at 270.51 163.83 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce409793-ce43-416a-88e4-3c013b6d72dd")
+		(property "Reference" "SW2"
+			(at 273.304 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 264.16 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 270.51 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B2"
+			(uuid "b075b9da-58dd-4e50-a6ef-6dc352251fbd")
+		)
+		(pin "A2"
+			(uuid "b245de86-3adc-43b0-b37a-b72350a4696d")
+		)
+		(pin "MP"
+			(uuid "f69b741e-bd92-4a17-96d5-e1cada5df84e")
+		)
+		(pin "C2"
+			(uuid "ebf3a6c7-b927-41d0-8d5b-9cc63c0297ff")
+		)
+		(pin "C1"
+			(uuid "a2dbf887-70a2-4f69-ae57-744bb9b431c5")
+		)
+		(pin "B1"
+			(uuid "c3a84dc6-b80a-4cd0-9ed5-7f25d605de45")
+		)
+		(pin "E"
+			(uuid "e454360b-d677-4e08-94b2-5e6badf5317c")
+		)
+		(pin "D"
+			(uuid "fa80ab88-68a0-434c-94f9-4238c173735d")
+		)
+		(pin "A1"
+			(uuid "bea3ed8c-4c53-4453-8e84-4f8a6b741857")
+		)
+		(instances
+			(project "Com-Nav-Radio"
+				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
+					(reference "SW2")
+					(unit 2)
 				)
 			)
 		)
@@ -31820,90 +31579,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Encoders:RotaryEncoder_MP")
-		(at 140.97 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd435e79-d218-4abd-8c7e-6399b07faa2e")
-		(property "Reference" "SW4"
-			(at 138.176 154.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EC12E1240301"
-			(at 133.35 156.972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Encoder:EC12E1240301"
-			(at 137.16 159.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
-			(at 140.97 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "EC12E1240301"
-			(at 140.97 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "0f4817bc-6b16-4072-889e-dfe338e85be3")
-		)
-		(pin "B"
-			(uuid "a68282d1-e8ec-4789-a00b-4dc5c2c8315d")
-		)
-		(pin "MP"
-			(uuid "adf70a09-0127-4e89-b4bf-d5d1a96698cc")
-		)
-		(pin "C"
-			(uuid "8bfb6224-bd6a-4222-a389-364b13f7676b")
-		)
-		(instances
-			(project "Com-Nav-Radio"
-				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 207.01 59.69 270)
 		(unit 1)
@@ -32440,71 +32115,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 278.13 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e53d9144-5b85-49fb-864c-fff578a0a9df")
-		(property "Reference" "#PWR076"
-			(at 278.13 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 278.13 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 278.13 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 278.13 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 278.13 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bc10bf67-e21a-4adf-8042-2ddcb11e6455")
-		)
-		(instances
-			(project "Com-Nav-Radio"
-				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 208.28 163.83 270)
 		(mirror x)
@@ -32514,7 +32124,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7933e55-7a4e-4146-9c78-70bb21628000")
-		(property "Reference" "SW9"
+		(property "Reference" "SW5"
 			(at 211.328 158.75 90)
 			(effects
 				(font
@@ -32567,7 +32177,7 @@
 		(instances
 			(project "Com-Nav-Radio"
 				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
-					(reference "SW9")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
