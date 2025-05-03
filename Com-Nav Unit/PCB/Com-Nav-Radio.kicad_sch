@@ -3580,7 +3580,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Encoder:EC11EBB24C03_EC110701N2B"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6976,12 +6976,6 @@
 		(uuid "1e94744f-cfb2-4435-86ba-74012035021d")
 	)
 	(junction
-		(at 50.8 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24121ae5-5ee3-4374-a568-15fe3a1cd463")
-	)
-	(junction
 		(at 179.07 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7040,6 +7034,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4426d7a3-f27c-4d2f-a355-3b66f7b2a7db")
+	)
+	(junction
+		(at 69.85 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "490595c0-701f-41ef-9af3-0a651d5f0ae4")
 	)
 	(junction
 		(at 313.69 67.31)
@@ -7118,12 +7118,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a952a41-caf0-4357-9f6e-b18a6e0a1971")
-	)
-	(junction
-		(at 69.85 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7dfaae2d-fa32-4f2b-83bd-f27935bafa5c")
 	)
 	(junction
 		(at 311.15 158.75)
@@ -7342,22 +7336,22 @@
 		(uuid "cbae729f-2679-4131-b03b-14763363b582")
 	)
 	(junction
+		(at 50.8 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc32e456-30dc-4719-a24c-f263c2789618")
+	)
+	(junction
 		(at 106.68 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce646268-fcf7-480a-a573-ee6bbcd2d705")
 	)
 	(junction
-		(at 167.64 144.78)
+		(at 165.1 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfc139c1-2a27-45f5-a0d2-9a93ea665036")
-	)
-	(junction
-		(at 50.8 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d01205f3-0673-4992-ba0a-0f5ce2e345e1")
 	)
 	(junction
 		(at 106.68 132.08)
@@ -7406,6 +7400,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3c7b724-590e-49ca-a8c7-161885b73a8c")
+	)
+	(junction
+		(at 50.8 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e710806f-61dc-4ee9-ba1c-5dd9b032e1f4")
 	)
 	(junction
 		(at 168.91 53.34)
@@ -9469,16 +9469,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 106.68) (xy 328.93 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "101ca2bc-8d20-48a8-802c-4427bd82f56f")
-	)
-	(wire
-		(pts
 			(xy 127 22.86) (xy 130.81 22.86)
 		)
 		(stroke
@@ -9677,6 +9667,16 @@
 		)
 		(uuid "16567de4-1142-46b8-9071-f69d248e4080")
 	)
+	(wire
+		(pts
+			(xy 50.8 38.1) (xy 64.77 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "167fa6e5-0987-4e08-8056-50775dd234da")
+	)
 	(bus
 		(pts
 			(xy 30.48 157.48) (xy 30.48 185.42)
@@ -9736,16 +9736,6 @@
 			(type default)
 		)
 		(uuid "1879a079-6a59-47db-aa54-7ab55afd8333")
-	)
-	(wire
-		(pts
-			(xy 325.12 151.13) (xy 328.93 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18e39307-7b2a-4067-96a9-0e1fe21aec27")
 	)
 	(bus
 		(pts
@@ -9829,16 +9819,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 40.64) (xy 64.77 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b067289-b621-4d36-9687-589144290871")
-	)
-	(wire
-		(pts
 			(xy 227.33 31.75) (xy 229.87 31.75)
 		)
 		(stroke
@@ -9856,16 +9836,6 @@
 			(type default)
 		)
 		(uuid "1bb0bff8-3c74-4176-8811-bcf01a8c8c59")
-	)
-	(wire
-		(pts
-			(xy 63.5 22.86) (xy 69.85 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c4974b6-ab9a-4392-b279-ba231feea90e")
 	)
 	(wire
 		(pts
@@ -9889,7 +9859,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 106.68) (xy 320.04 106.68)
+			(xy 318.77 106.68) (xy 328.93 106.68)
 		)
 		(stroke
 			(width 0)
@@ -10719,7 +10689,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 144.78) (xy 167.64 143.51)
+			(xy 165.1 144.78) (xy 165.1 143.51)
 		)
 		(stroke
 			(width 0)
@@ -10749,7 +10719,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 22.86) (xy 93.98 22.86)
+			(xy 63.5 22.86) (xy 69.85 22.86)
 		)
 		(stroke
 			(width 0)
@@ -11609,6 +11579,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 62.23) (xy 328.93 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "578a1f31-186a-44cd-ac61-26ecee34abc4")
+	)
+	(wire
+		(pts
 			(xy 313.69 156.21) (xy 328.93 156.21)
 		)
 		(stroke
@@ -11876,6 +11856,16 @@
 			(type default)
 		)
 		(uuid "60201353-4c01-48b7-babc-50b7f5bb5d55")
+	)
+	(wire
+		(pts
+			(xy 170.18 135.89) (xy 173.99 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607de8e1-b625-45fe-8593-6fa1ee4f3e4e")
 	)
 	(bus
 		(pts
@@ -12629,7 +12619,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 195.58) (xy 320.04 195.58)
+			(xy 318.77 195.58) (xy 328.93 195.58)
 		)
 		(stroke
 			(width 0)
@@ -13159,6 +13149,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 22.86) (xy 69.85 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d66423-ca64-468d-bc52-e85710e7acfb")
+	)
+	(wire
+		(pts
 			(xy 339.09 48.26) (xy 339.09 49.53)
 		)
 		(stroke
@@ -13186,16 +13186,6 @@
 			(type default)
 		)
 		(uuid "8b9fc719-ffc6-45e3-8b12-a68d7e68d39b")
-	)
-	(wire
-		(pts
-			(xy 69.85 22.86) (xy 69.85 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c69f9d1-373a-4ec2-a944-b557ec54715f")
 	)
 	(wire
 		(pts
@@ -13559,7 +13549,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 144.78) (xy 167.64 144.78)
+			(xy 160.02 144.78) (xy 165.1 144.78)
 		)
 		(stroke
 			(width 0)
@@ -14099,6 +14089,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 144.78) (xy 154.94 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a870e447-2875-4cdc-b229-29c12a72939f")
+	)
+	(wire
+		(pts
 			(xy 50.8 22.86) (xy 55.88 22.86)
 		)
 		(stroke
@@ -14209,7 +14209,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 135.89) (xy 162.56 135.89)
+			(xy 157.48 135.89) (xy 160.02 135.89)
 		)
 		(stroke
 			(width 0)
@@ -14419,7 +14419,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 144.78) (xy 167.64 146.05)
+			(xy 165.1 144.78) (xy 165.1 146.05)
 		)
 		(stroke
 			(width 0)
@@ -14729,23 +14729,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 59.69) (xy 204.47 59.69)
+			(xy 199.39 59.69) (xy 212.09 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "becb0cb5-a357-465e-9878-c32d40facce3")
-	)
-	(wire
-		(pts
-			(xy 209.55 59.69) (xy 212.09 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bedac5f5-1ed7-4e14-b4a0-57d812a01141")
 	)
 	(wire
 		(pts
@@ -14839,7 +14829,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 151.13) (xy 167.64 152.4)
+			(xy 165.1 151.13) (xy 165.1 152.4)
 		)
 		(stroke
 			(width 0)
@@ -15379,16 +15369,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 62.23) (xy 320.04 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1c66bf2-4242-4861-afcf-77b724e61a3a")
-	)
-	(wire
-		(pts
 			(xy 127 22.86) (xy 127 24.13)
 		)
 		(stroke
@@ -15579,16 +15559,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 38.1) (xy 64.77 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7997eee-200e-4ae3-b75d-97c73303f2cc")
-	)
-	(wire
-		(pts
 			(xy 254 157.48) (xy 242.57 157.48)
 		)
 		(stroke
@@ -15699,16 +15669,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 135.89) (xy 180.34 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db8a28bb-77cd-4cc1-878d-5491ca555185")
-	)
-	(wire
-		(pts
 			(xy 262.89 49.53) (xy 311.15 49.53)
 		)
 		(stroke
@@ -15759,6 +15719,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 40.64) (xy 64.77 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd73db49-eb5e-4046-a4e1-16d4a8e2f343")
+	)
+	(wire
+		(pts
 			(xy 270.51 101.6) (xy 270.51 96.52)
 		)
 		(stroke
@@ -15806,6 +15776,16 @@
 			(type default)
 		)
 		(uuid "de9a9205-650a-48e4-aeb1-cb84dbb54ce9")
+	)
+	(wire
+		(pts
+			(xy 180.34 135.89) (xy 179.07 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "decd93f7-8abb-4818-8523-661ad203b165")
 	)
 	(wire
 		(pts
@@ -15976,16 +15956,6 @@
 			(type default)
 		)
 		(uuid "e4f96fb9-c4b3-4712-83d1-56fc4001d4f2")
-	)
-	(wire
-		(pts
-			(xy 325.12 62.23) (xy 328.93 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e51f8870-afc2-4abe-863a-f6cefbfe0f25")
 	)
 	(wire
 		(pts
@@ -16409,7 +16379,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 151.13) (xy 320.04 151.13)
+			(xy 318.77 151.13) (xy 328.93 151.13)
 		)
 		(stroke
 			(width 0)
@@ -16536,16 +16506,6 @@
 			(type default)
 		)
 		(uuid "f800eb8e-9572-4e23-ba3a-5d85a5bc5b07")
-	)
-	(wire
-		(pts
-			(xy 325.12 195.58) (xy 328.93 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f833c02f-7249-43a3-ad2d-b8d14a49373c")
 	)
 	(wire
 		(pts
@@ -16726,6 +16686,16 @@
 			(type default)
 		)
 		(uuid "fcfc937d-3256-4f4e-82a1-efe709efebad")
+	)
+	(wire
+		(pts
+			(xy 69.85 22.86) (xy 93.98 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd39ffbb-ac11-4ef7-87ac-7900232a8eef")
 	)
 	(wire
 		(pts
@@ -17008,7 +16978,7 @@
 		(uuid "194da50c-4911-4886-a3b2-abd46f982f53")
 	)
 	(label "BOOT0_DIS"
-		(at 190.5 59.69 0)
+		(at 199.39 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17297,6 +17267,16 @@
 		)
 		(uuid "42e0a4d6-afac-4660-ac67-92cb93493dc0")
 	)
+	(label "USB_DP"
+		(at 85.09 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "451ec682-1fc2-4115-ae7d-3568de329979")
+	)
 	(label "SWDCLK"
 		(at 273.05 128.27 0)
 		(effects
@@ -17387,16 +17367,6 @@
 		)
 		(uuid "4e42f626-3865-4cdf-b68b-7e4bcb51039e")
 	)
-	(label "USB_DP"
-		(at 85.09 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4ea71ed9-586a-4452-a459-8d285c516bea")
-	)
 	(label "SEG4"
 		(at 68.58 193.04 90)
 		(effects
@@ -17426,6 +17396,16 @@
 			(justify left bottom)
 		)
 		(uuid "51e31b94-aafc-4ac4-bd54-36927019e3ae")
+	)
+	(label "USB_DN"
+		(at 85.09 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "51f0fa42-22f9-45ed-8a55-9ea7b6dacbe5")
 	)
 	(label "SEG3"
 		(at 64.77 233.68 90)
@@ -17766,16 +17746,6 @@
 			(justify left bottom)
 		)
 		(uuid "79b701d1-0852-41fd-92c6-65c62f7e0d37")
-	)
-	(label "USB_DN"
-		(at 85.09 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7f121450-1cd6-48a3-a666-0eb94a605c99")
 	)
 	(label "SEG6"
 		(at 162.56 193.04 90)
@@ -18697,16 +18667,6 @@
 		)
 		(uuid "e6d04ceb-1f9b-45f0-a01a-779f08b9e72d")
 	)
-	(label "BOOT0_DIS"
-		(at 154.94 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e730d407-c1d7-4900-931a-6301b0957cc0")
-	)
 	(label "SEG4"
 		(at 118.11 233.68 90)
 		(effects
@@ -18716,6 +18676,16 @@
 			(justify left bottom)
 		)
 		(uuid "e935a239-a0f6-49a5-98d1-88edf866cfe7")
+	)
+	(label "BOOT0_DIS"
+		(at 139.7 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea4a196e-d89a-45ca-ba83-8725a965e0c7")
 	)
 	(label "DIG5"
 		(at 215.9 140.97 270)
@@ -18941,6 +18911,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "*** MAYBE CHANGE FOR SMD"
+			(at 193.04 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc7ccec4-a6b2-49e7-ae9b-114a2ecafec7")
 		)
@@ -19065,6 +19044,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 121.92 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CL10A225KO8NNNC"
 			(at 121.92 45.72 0)
 			(effects
 				(font
@@ -19203,14 +19191,14 @@
 		(dnp no)
 		(uuid "08d3f0c1-29cd-4ec7-9a83-62783fbd2e5f")
 		(property "Reference" "SW1"
-			(at 176.276 156.972 0)
+			(at 176.784 155.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "EC110701N2B"
 			(at 176.53 157.48 0)
 			(effects
 				(font
@@ -19218,7 +19206,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Encoder:EC11EBB24C03_EC110701N2B"
 			(at 176.53 163.83 0)
 			(effects
 				(font
@@ -19237,6 +19225,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 176.53 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "EC110701N2B"
 			(at 176.53 163.83 0)
 			(effects
 				(font
@@ -19372,7 +19369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 127 161.29 0)
 			(effects
 				(font
@@ -19399,7 +19396,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1002T5E"
+		(property "PN" "0402WGF1002TCE"
 			(at 127 161.29 0)
 			(effects
 				(font
@@ -19476,6 +19473,14 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "ULN2003A"
+			(at 377.19 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "16"
 			(uuid "650efd2f-6af7-4f5b-8b71-9a807d7395c8")
 		)
@@ -19550,7 +19555,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "33"
 			(at 81.28 104.14 90)
 			(effects
 				(font
@@ -19558,7 +19563,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 77.47 105.41 0)
 			(effects
 				(font
@@ -19585,7 +19590,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1000T5E"
+		(property "PN" "0402WGF330JTCE"
 			(at 77.47 105.41 0)
 			(effects
 				(font
@@ -19611,7 +19616,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 280.67 26.67 0)
+		(at 284.48 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19620,7 +19625,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cda1afa-f602-43e5-8a2d-3d1296dd9179")
 		(property "Reference" "#PWR029"
-			(at 280.67 33.02 0)
+			(at 284.48 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19629,7 +19634,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 280.67 31.75 0)
+			(at 284.48 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19637,7 +19642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 26.67 0)
+			(at 284.48 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19646,7 +19651,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 26.67 0)
+			(at 284.48 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19655,7 +19660,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 280.67 26.67 0)
+			(at 284.48 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19676,84 +19681,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 322.58 106.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0fd0cf3b-317d-4fdb-b21c-a715afbefc07")
-		(property "Reference" "R2"
-			(at 319.278 105.664 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 326.39 105.664 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 322.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 322.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 322.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "0603WAF1002T5E"
-			(at 322.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "652879e0-7c93-42ee-b8e5-fca66c1cdb8c")
-		)
-		(pin "1"
-			(uuid "8e3cf9fb-0d15-4e03-95ac-057385ce2ae4")
-		)
-		(instances
-			(project "Com-Nav-Radio"
-				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 273.05 24.13 0)
+		(at 275.59 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19761,7 +19690,7 @@
 		(dnp no)
 		(uuid "1222f0a3-d0d6-4af9-a766-d3f38d5161b3")
 		(property "Reference" "C12"
-			(at 275.59 22.352 0)
+			(at 278.13 22.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19769,15 +19698,15 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 276.86 25.908 0)
+			(at 279.4 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 273.05 24.13 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 275.59 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19786,7 +19715,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 273.05 24.13 0)
+			(at 275.59 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19795,7 +19724,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 273.05 24.13 0)
+			(at 275.59 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CL05B104KO5NNNC"
+			(at 275.59 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19862,6 +19800,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CL10A225KO8NNNC"
 			(at 139.7 45.72 0)
 			(effects
 				(font
@@ -20224,7 +20171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 322.58 80.01 0)
 			(effects
 				(font
@@ -20243,6 +20190,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 322.58 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CL05B104KO5NNNC"
 			(at 322.58 80.01 0)
 			(effects
 				(font
@@ -20388,7 +20344,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "33"
 			(at 264.16 53.34 90)
 			(effects
 				(font
@@ -20396,7 +20352,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 260.35 54.61 0)
 			(effects
 				(font
@@ -20423,7 +20379,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1000T5E"
+		(property "PN" "0402WGF330JTCE"
 			(at 260.35 54.61 0)
 			(effects
 				(font
@@ -20539,7 +20495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 68.58 147.32 0)
 			(effects
 				(font
@@ -20566,7 +20522,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1002T5E"
+		(property "PN" "0402WGF1002TCE"
 			(at 68.58 147.32 0)
 			(effects
 				(font
@@ -20658,7 +20614,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 280.67 21.59 0)
+		(at 284.48 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20667,7 +20623,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f66898a-52bf-497c-b2ff-2d299c1eddac")
 		(property "Reference" "#PWR028"
-			(at 280.67 25.4 0)
+			(at 284.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20676,7 +20632,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 280.67 16.51 0)
+			(at 284.48 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20684,7 +20640,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 21.59 0)
+			(at 284.48 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20693,7 +20649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 21.59 0)
+			(at 284.48 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20702,7 +20658,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 280.67 21.59 0)
+			(at 284.48 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20805,7 +20761,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "33"
 			(at 81.28 149.86 90)
 			(effects
 				(font
@@ -20813,7 +20769,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 77.47 151.13 0)
 			(effects
 				(font
@@ -20840,7 +20796,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1000T5E"
+		(property "PN" "0402WGF330JTCE"
 			(at 77.47 151.13 0)
 			(effects
 				(font
@@ -20889,7 +20845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 68.58 78.74 0)
 			(effects
 				(font
@@ -20916,7 +20872,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1002T5E"
+		(property "PN" "0402WGF1002TCE"
 			(at 68.58 78.74 0)
 			(effects
 				(font
@@ -20957,7 +20913,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "33"
 			(at 81.28 115.57 90)
 			(effects
 				(font
@@ -20965,7 +20921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 77.47 116.84 0)
 			(effects
 				(font
@@ -20992,7 +20948,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1000T5E"
+		(property "PN" "0402WGF330JTCE"
 			(at 77.47 116.84 0)
 			(effects
 				(font
@@ -21041,7 +20997,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 68.58 90.17 0)
 			(effects
 				(font
@@ -21068,7 +21024,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1002T5E"
+		(property "PN" "0402WGF1002TCE"
 			(at 68.58 90.17 0)
 			(effects
 				(font
@@ -21146,6 +21102,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "*** MAYBE CHANGE FOR SMD"
+			(at 200.66 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8965bba9-fbad-446e-8f09-076f98489789")
 		)
@@ -21171,7 +21136,7 @@
 		(dnp no)
 		(uuid "29d3fc73-e57b-4659-b5d1-096b607eb15c")
 		(property "Reference" "SW1"
-			(at 138.176 156.718 0)
+			(at 138.176 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21179,8 +21144,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 147.32 165.1 0)
+		(property "Value" "EC110701N2B"
+			(at 134.366 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21188,7 +21153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Encoder:EC11EBB24C03_EC110701N2B"
 			(at 140.97 163.83 0)
 			(effects
 				(font
@@ -21215,32 +21180,41 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "EC110701N2B"
+			(at 140.97 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B2"
-			(uuid "d47a6337-d1a0-44ae-9254-081f9c0ae9ad")
+			(uuid "d47a6337-d1a0-44ae-9254-081f9c0ae9ae")
 		)
 		(pin "A2"
-			(uuid "1f5353b7-3fa7-4c4e-8dc4-93b4a79e5fbc")
+			(uuid "1f5353b7-3fa7-4c4e-8dc4-93b4a79e5fbd")
 		)
 		(pin "MP"
-			(uuid "f69b741e-bd92-4a17-96d5-e1cada5df84e")
+			(uuid "f69b741e-bd92-4a17-96d5-e1cada5df84f")
 		)
 		(pin "C2"
-			(uuid "c877d6e1-7bd4-42f1-a4c1-10c0e960dd02")
+			(uuid "c877d6e1-7bd4-42f1-a4c1-10c0e960dd03")
 		)
 		(pin "C1"
-			(uuid "a2dbf887-70a2-4f69-ae57-744bb9b431c5")
+			(uuid "a2dbf887-70a2-4f69-ae57-744bb9b431c6")
 		)
 		(pin "B1"
-			(uuid "c3a84dc6-b80a-4cd0-9ed5-7f25d605de45")
+			(uuid "c3a84dc6-b80a-4cd0-9ed5-7f25d605de46")
 		)
 		(pin "E"
-			(uuid "e454360b-d677-4e08-94b2-5e6badf5317c")
+			(uuid "e454360b-d677-4e08-94b2-5e6badf5317d")
 		)
 		(pin "D"
-			(uuid "fa80ab88-68a0-434c-94f9-4238c173735d")
+			(uuid "fa80ab88-68a0-434c-94f9-4238c173735e")
 		)
 		(pin "A1"
-			(uuid "bea3ed8c-4c53-4453-8e84-4f8a6b741857")
+			(uuid "bea3ed8c-4c53-4453-8e84-4f8a6b741858")
 		)
 		(instances
 			(project ""
@@ -21381,7 +21355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 173.99 80.01 0)
 			(effects
 				(font
@@ -21408,7 +21382,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1002T5E"
+		(property "PN" "0402WGF1002TCE"
 			(at 173.99 80.01 0)
 			(effects
 				(font
@@ -21643,7 +21617,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 185.42 149.86 90)
+		(at 185.42 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21651,7 +21625,7 @@
 		(dnp no)
 		(uuid "36fad9d0-6e2c-4930-ae60-6981846fc910")
 		(property "Reference" "D1"
-			(at 187.198 148.336 90)
+			(at 183.642 148.336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21659,8 +21633,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SM4007PL"
-			(at 185.42 152.4 90)
+		(property "Value" "1N5819WS"
+			(at 185.42 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21669,7 +21643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 185.42 149.86 90)
 			(effects
 				(font
@@ -21714,7 +21688,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "SM4007PL"
+		(property "PN" "1N5819WS"
 			(at 185.42 149.86 90)
 			(effects
 				(font
@@ -21876,7 +21850,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "51"
 			(at 50.8 107.95 90)
 			(effects
 				(font
@@ -21884,7 +21858,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 46.99 109.22 0)
 			(effects
 				(font
@@ -21911,7 +21885,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1000T5E"
+		(property "PN" "0805W8F5100T5E"
 			(at 46.99 109.22 0)
 			(effects
 				(font
@@ -21979,6 +21953,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 173.99 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" " CL05C100JB5NNNC"
 			(at 173.99 57.15 0)
 			(effects
 				(font
@@ -22057,6 +22040,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "AO3401A"
+			(at 58.42 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "2b3e1573-1c92-4fee-af1e-260f6c4bb0a9")
 		)
@@ -22077,7 +22069,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 26.67 0)
+		(at 255.27 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22086,7 +22078,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d7b313b-cfb8-40d4-b763-dc602f05f9ac")
 		(property "Reference" "#PWR023"
-			(at 257.81 33.02 0)
+			(at 255.27 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22095,7 +22087,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 31.75 0)
+			(at 255.27 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22103,7 +22095,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 26.67 0)
+			(at 255.27 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22112,7 +22104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 26.67 0)
+			(at 255.27 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22121,7 +22113,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 26.67 0)
+			(at 255.27 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22143,7 +22135,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 160.02 135.89 90)
+		(at 157.48 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22151,7 +22143,7 @@
 		(dnp no)
 		(uuid "3d93fedd-a0f3-48ee-887a-bbb0c71b0185")
 		(property "Reference" "#PWR067"
-			(at 163.83 135.89 0)
+			(at 161.29 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22160,7 +22152,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 160.274 133.604 90)
+			(at 157.734 133.604 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22169,7 +22161,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 135.89 0)
+			(at 157.48 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22178,7 +22170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 135.89 0)
+			(at 157.48 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22187,7 +22179,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 160.02 135.89 0)
+			(at 157.48 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22275,7 +22267,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 273.05 26.67 0)
+		(at 275.59 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22284,7 +22276,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fe9fa14-b2f8-40a3-8bc2-f4adf48eff46")
 		(property "Reference" "#PWR027"
-			(at 273.05 33.02 0)
+			(at 275.59 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22293,7 +22285,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 273.05 31.75 0)
+			(at 275.59 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22301,7 +22293,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 26.67 0)
+			(at 275.59 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22310,7 +22302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 26.67 0)
+			(at 275.59 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22319,7 +22311,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 26.67 0)
+			(at 275.59 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22341,7 +22333,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 208.28 149.86 90)
+		(at 208.28 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22349,7 +22341,7 @@
 		(dnp no)
 		(uuid "4097b030-228c-494e-b2b5-d5d7bcad6d9b")
 		(property "Reference" "D4"
-			(at 210.058 148.336 90)
+			(at 206.502 148.336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22357,8 +22349,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SM4007PL"
-			(at 208.28 152.4 90)
+		(property "Value" "1N5819WS"
+			(at 208.28 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22367,7 +22359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 208.28 149.86 90)
 			(effects
 				(font
@@ -22412,7 +22404,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "SM4007PL"
+		(property "PN" "1N5819WS"
 			(at 208.28 149.86 90)
 			(effects
 				(font
@@ -22488,6 +22480,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "CL10A225KO8NNNC"
+			(at 130.81 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea6ca49f-fcf6-47f9-9bf8-0de7c0244bfc")
 		)
@@ -22528,7 +22529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 55.88 30.48 0)
 			(effects
 				(font
@@ -22555,7 +22556,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "0402WGF5101TCE"
 			(at 55.88 30.48 0)
 			(effects
 				(font
@@ -22574,82 +22575,6 @@
 			(project "Com-Nav-Radio"
 				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
 					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 322.58 151.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4798014f-1419-45de-be2b-31737cf25cc0")
-		(property "Reference" "R6"
-			(at 319.278 150.114 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 326.39 150.114 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 322.58 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 322.58 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 322.58 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "0603WAF1002T5E"
-			(at 322.58 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8a0affba-5587-44fc-9de4-f9e97272c589")
-		)
-		(pin "1"
-			(uuid "aabeef0f-9e97-487c-80e0-c28f6cc1fdfb")
-		)
-		(instances
-			(project "Com-Nav-Radio"
-				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -22701,6 +22626,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 215.9 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "*** MAYBE CHANGE FOR SMD"
 			(at 215.9 163.83 0)
 			(effects
 				(font
@@ -22814,7 +22748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 68.58 101.6 0)
 			(effects
 				(font
@@ -22841,7 +22775,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1002T5E"
+		(property "PN" "0402WGF1002TCE"
 			(at 68.58 101.6 0)
 			(effects
 				(font
@@ -23417,6 +23351,14 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "ULN2003A"
+			(at 377.19 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "16"
 			(uuid "13ec011a-a343-4e6e-96b8-0d6c4bbba291")
 		)
@@ -23500,7 +23442,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 248.92 161.29 0)
 			(effects
 				(font
@@ -23527,7 +23469,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1002T5E"
+		(property "PN" "0402WGF1002TCE"
 			(at 248.92 161.29 0)
 			(effects
 				(font
@@ -23576,7 +23518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 162.56 166.37 0)
 			(effects
 				(font
@@ -23603,7 +23545,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1002T5E"
+		(property "PN" "0402WGF1002TCE"
 			(at 162.56 166.37 0)
 			(effects
 				(font
@@ -23652,7 +23594,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 127 166.37 0)
 			(effects
 				(font
@@ -23679,7 +23621,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1002T5E"
+		(property "PN" "0402WGF1002TCE"
 			(at 127 166.37 0)
 			(effects
 				(font
@@ -23728,7 +23670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 68.58 158.75 0)
 			(effects
 				(font
@@ -23755,7 +23697,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1002T5E"
+		(property "PN" "0402WGF1002TCE"
 			(at 68.58 158.75 0)
 			(effects
 				(font
@@ -23804,7 +23746,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 162.56 161.29 0)
 			(effects
 				(font
@@ -23831,7 +23773,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1002T5E"
+		(property "PN" "0402WGF1002TCE"
 			(at 162.56 161.29 0)
 			(effects
 				(font
@@ -23923,7 +23865,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 152.4 0)
+		(at 165.1 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23931,7 +23873,7 @@
 		(dnp no)
 		(uuid "5c2792b8-fea2-4621-9563-35eba6617a8a")
 		(property "Reference" "#PWR046"
-			(at 167.64 158.75 0)
+			(at 165.1 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23940,7 +23882,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 152.4 0)
+			(at 167.64 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23948,7 +23890,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 152.4 0)
+			(at 165.1 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23957,7 +23899,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 152.4 0)
+			(at 165.1 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23966,7 +23908,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 152.4 0)
+			(at 165.1 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24103,6 +24045,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" " CL05C100JB5NNNC"
+			(at 173.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "80d5421d-a50c-48b0-85eb-790dce14e534")
 		)
@@ -24201,7 +24152,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "51"
 			(at 50.8 96.52 90)
 			(effects
 				(font
@@ -24209,7 +24160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 46.99 97.79 0)
 			(effects
 				(font
@@ -24236,7 +24187,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1000T5E"
+		(property "PN" "0805W8F5100T5E"
 			(at 46.99 97.79 0)
 			(effects
 				(font
@@ -24286,7 +24237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 284.48 161.29 0)
 			(effects
 				(font
@@ -24313,7 +24264,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1002T5E"
+		(property "PN" "0402WGF1002TCE"
 			(at 284.48 161.29 0)
 			(effects
 				(font
@@ -24485,7 +24436,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "33"
 			(at 81.28 127 90)
 			(effects
 				(font
@@ -24493,7 +24444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 77.47 128.27 0)
 			(effects
 				(font
@@ -24520,7 +24471,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1000T5E"
+		(property "PN" "0402WGF330JTCE"
 			(at 77.47 128.27 0)
 			(effects
 				(font
@@ -24599,6 +24550,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "AO3401A"
+			(at 58.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f60e8e74-1a00-40a0-810b-af115f7b5bd3")
 		)
@@ -24634,7 +24594,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "51"
 			(at 50.8 130.81 90)
 			(effects
 				(font
@@ -24642,7 +24602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 46.99 132.08 0)
 			(effects
 				(font
@@ -24669,7 +24629,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1000T5E"
+		(property "PN" "0805W8F5100T5E"
 			(at 46.99 132.08 0)
 			(effects
 				(font
@@ -24695,7 +24655,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 273.05 21.59 0)
+		(at 275.59 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24704,7 +24664,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d0f729d-3d00-401e-a10a-bfc4a1f81a6a")
 		(property "Reference" "#PWR026"
-			(at 273.05 25.4 0)
+			(at 275.59 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24713,7 +24673,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 273.05 16.51 0)
+			(at 275.59 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24721,7 +24681,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 21.59 0)
+			(at 275.59 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24730,7 +24690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 21.59 0)
+			(at 275.59 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24739,7 +24699,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 273.05 21.59 0)
+			(at 275.59 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24761,7 +24721,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 223.52 149.86 90)
+		(at 223.52 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24769,7 +24729,7 @@
 		(dnp no)
 		(uuid "6defb8c3-06d9-4bbe-b108-bc05b0e012d6")
 		(property "Reference" "D6"
-			(at 225.298 148.336 90)
+			(at 221.996 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24777,8 +24737,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SM4007PL"
-			(at 223.52 152.4 90)
+		(property "Value" "1N5819WS"
+			(at 223.52 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24787,7 +24747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 223.52 149.86 90)
 			(effects
 				(font
@@ -24832,7 +24792,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "SM4007PL"
+		(property "PN" "1N5819WS"
 			(at 223.52 149.86 90)
 			(effects
 				(font
@@ -24881,7 +24841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 127 26.67 0)
 			(effects
 				(font
@@ -24908,6 +24868,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "CL05B104KO5NNNC"
+			(at 127 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a6afee00-3550-4c15-b55f-6355cad15ae7")
 		)
@@ -24918,82 +24887,6 @@
 			(project "Com-Nav-Radio"
 				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 322.58 62.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72613ba5-cfc0-4afb-af59-19918a6cc5d8")
-		(property "Reference" "R1"
-			(at 319.278 61.214 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 326.644 61.214 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 322.58 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 322.58 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 322.58 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "0603WAF1002T5E"
-			(at 322.58 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f0dc3fff-b083-4d53-b86d-bd1700744d99")
-		)
-		(pin "1"
-			(uuid "c502d8f9-c2b6-4454-9af3-132773f78e59")
-		)
-		(instances
-			(project ""
-				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -25046,6 +24939,15 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 58.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "AO3401A"
 			(at 58.42 111.76 0)
 			(effects
 				(font
@@ -25119,6 +25021,15 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 58.42 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "AO3401A"
 			(at 58.42 77.47 0)
 			(effects
 				(font
@@ -25227,7 +25138,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "33"
 			(at 81.28 92.71 90)
 			(effects
 				(font
@@ -25235,7 +25146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 77.47 93.98 0)
 			(effects
 				(font
@@ -25262,7 +25173,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1000T5E"
+		(property "PN" "0402WGF330JTCE"
 			(at 77.47 93.98 0)
 			(effects
 				(font
@@ -25304,7 +25215,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "EC110701N2B"
 			(at 234.95 157.48 0)
 			(effects
 				(font
@@ -25312,7 +25223,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Encoder:EC11EBB24C03_EC110701N2B"
 			(at 234.95 163.83 0)
 			(effects
 				(font
@@ -25339,17 +25250,26 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "EC110701N2B"
+			(at 234.95 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B2"
-			(uuid "d47a6337-d1a0-44ae-9254-081f9c0ae9ad")
+			(uuid "d47a6337-d1a0-44ae-9254-081f9c0ae9af")
 		)
 		(pin "A2"
-			(uuid "1f5353b7-3fa7-4c4e-8dc4-93b4a79e5fbc")
+			(uuid "1f5353b7-3fa7-4c4e-8dc4-93b4a79e5fbe")
 		)
 		(pin "MP"
 			(uuid "8dbf088c-72d2-40ac-b53f-5e89b2cbe5a3")
 		)
 		(pin "C2"
-			(uuid "c877d6e1-7bd4-42f1-a4c1-10c0e960dd02")
+			(uuid "c877d6e1-7bd4-42f1-a4c1-10c0e960dd04")
 		)
 		(pin "C1"
 			(uuid "8e54947c-5b03-4ea8-8a7a-b28dc34793dc")
@@ -25665,7 +25585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 322.58 45.72 0)
 			(effects
 				(font
@@ -25684,6 +25604,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 322.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CL05B104KO5NNNC"
 			(at 322.58 45.72 0)
 			(effects
 				(font
@@ -25774,7 +25703,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 257.81 24.13 0)
+		(at 255.27 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25782,7 +25711,7 @@
 		(dnp no)
 		(uuid "7e69ecef-fc37-4f4f-aa84-a067e66c683e")
 		(property "Reference" "C10"
-			(at 260.35 22.352 0)
+			(at 257.81 22.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25790,15 +25719,15 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 261.62 25.908 0)
+			(at 259.08 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 257.81 24.13 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 255.27 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25807,7 +25736,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 24.13 0)
+			(at 255.27 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25816,7 +25745,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 257.81 24.13 0)
+			(at 255.27 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CL05B104KO5NNNC"
+			(at 255.27 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26091,6 +26029,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "AO3401A"
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "dd061e0d-a464-4a13-b924-87d5ffc122c0")
 		)
@@ -26134,7 +26081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 311.15 41.91 0)
 			(effects
 				(font
@@ -26161,7 +26108,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1002T5E"
+		(property "PN" "0402WGF1002TCE"
 			(at 311.15 41.91 0)
 			(effects
 				(font
@@ -26408,7 +26355,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "dnp"
 			(at 31.75 62.23 0)
 			(effects
 				(font
@@ -26427,82 +26374,6 @@
 			(project "Com-Nav-Radio"
 				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
 					(reference "R49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 322.58 195.58 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "896f51c8-adb6-4abf-9b08-202110db6057")
-		(property "Reference" "R7"
-			(at 319.278 194.564 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 326.39 194.564 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 322.58 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 322.58 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 322.58 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "0603WAF1002T5E"
-			(at 322.58 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "82bc63ac-16c2-429b-ab5e-2b3a087d40de")
-		)
-		(pin "1"
-			(uuid "a192d733-a863-4e58-92c7-6ef6126b2f50")
-		)
-		(instances
-			(project "Com-Nav-Radio"
-				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -26533,7 +26404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 201.93 46.99 0)
 			(effects
 				(font
@@ -26560,7 +26431,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1002T5E"
+		(property "PN" "0402WGF1002TCE"
 			(at 201.93 46.99 0)
 			(effects
 				(font
@@ -26634,6 +26505,15 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 69.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "USBLC6-2SC6"
 			(at 69.85 38.1 0)
 			(effects
 				(font
@@ -26799,7 +26679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 68.58 124.46 0)
 			(effects
 				(font
@@ -26826,7 +26706,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1002T5E"
+		(property "PN" "0402WGF1002TCE"
 			(at 68.58 124.46 0)
 			(effects
 				(font
@@ -26932,7 +26812,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "51"
 			(at 50.8 119.38 90)
 			(effects
 				(font
@@ -26940,7 +26820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 46.99 120.65 0)
 			(effects
 				(font
@@ -26967,7 +26847,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1000T5E"
+		(property "PN" "0805W8F5100T5E"
 			(at 46.99 120.65 0)
 			(effects
 				(font
@@ -27059,7 +26939,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 200.66 149.86 90)
+		(at 200.66 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27067,7 +26947,7 @@
 		(dnp no)
 		(uuid "a1117739-a5f6-40d1-8715-c818bb7821b7")
 		(property "Reference" "D3"
-			(at 202.438 148.336 90)
+			(at 198.882 148.336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27075,8 +26955,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SM4007PL"
-			(at 200.66 152.4 90)
+		(property "Value" "1N5819WS"
+			(at 200.66 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27085,7 +26965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 200.66 149.86 90)
 			(effects
 				(font
@@ -27130,7 +27010,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "SM4007PL"
+		(property "PN" "1N5819WS"
 			(at 200.66 149.86 90)
 			(effects
 				(font
@@ -27419,7 +27299,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 193.04 149.86 90)
+		(at 193.04 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27427,7 +27307,7 @@
 		(dnp no)
 		(uuid "a6a48ba9-0304-461e-85a3-f276d0cceeba")
 		(property "Reference" "D2"
-			(at 194.818 148.336 90)
+			(at 191.262 148.336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27435,8 +27315,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SM4007PL"
-			(at 193.04 152.4 90)
+		(property "Value" "1N5819WS"
+			(at 193.04 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27445,7 +27325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 193.04 149.86 90)
 			(effects
 				(font
@@ -27490,7 +27370,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "SM4007PL"
+		(property "PN" "1N5819WS"
 			(at 193.04 149.86 90)
 			(effects
 				(font
@@ -27892,6 +27772,14 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "ULN2003A"
+			(at 377.19 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "16"
 			(uuid "d5eb7d66-6c7c-482b-a6c8-e03a71d7d2e7")
 		)
@@ -27975,7 +27863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 284.48 166.37 0)
 			(effects
 				(font
@@ -28002,7 +27890,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1002T5E"
+		(property "PN" "0402WGF1002TCE"
 			(at 284.48 166.37 0)
 			(effects
 				(font
@@ -28051,7 +27939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 55.88 27.94 0)
 			(effects
 				(font
@@ -28078,7 +27966,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "0402WGF5101TCE"
 			(at 55.88 27.94 0)
 			(effects
 				(font
@@ -28170,7 +28058,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
-		(at 167.64 138.43 270)
+		(at 165.1 138.43 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28179,7 +28067,7 @@
 		(dnp no)
 		(uuid "ad91753c-cd30-42d7-b199-58f76fa5d4a1")
 		(property "Reference" "Q10"
-			(at 172.72 138.684 90)
+			(at 170.18 138.684 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28187,7 +28075,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 175.006 140.716 90)
+			(at 172.466 140.716 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28195,7 +28083,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 165.735 133.35 0)
+			(at 163.195 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28206,7 +28094,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 163.83 133.35 0)
+			(at 161.29 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28216,7 +28104,16 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 167.64 138.43 0)
+			(at 165.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "AO3401A"
+			(at 165.1 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28391,7 +28288,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "33"
 			(at 264.16 48.26 90)
 			(effects
 				(font
@@ -28399,7 +28296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 260.35 49.53 0)
 			(effects
 				(font
@@ -28426,7 +28323,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1000T5E"
+		(property "PN" "0402WGF330JTCE"
 			(at 260.35 49.53 0)
 			(effects
 				(font
@@ -28452,7 +28349,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 215.9 149.86 90)
+		(at 215.9 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28460,7 +28357,7 @@
 		(dnp no)
 		(uuid "b46400af-beb7-4629-9afe-cd429159fb2b")
 		(property "Reference" "D5"
-			(at 217.678 148.336 90)
+			(at 214.376 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28468,8 +28365,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SM4007PL"
-			(at 215.9 152.4 90)
+		(property "Value" "1N5819WS"
+			(at 215.9 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28478,7 +28375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 215.9 149.86 90)
 			(effects
 				(font
@@ -28523,7 +28420,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "SM4007PL"
+		(property "PN" "1N5819WS"
 			(at 215.9 149.86 90)
 			(effects
 				(font
@@ -28663,6 +28560,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PN" "ULN2003A"
+			(at 377.19 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "16"
@@ -28812,7 +28717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 320.04 170.18 0)
 			(effects
 				(font
@@ -28831,6 +28736,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 320.04 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CL05B104KO5NNNC"
 			(at 320.04 170.18 0)
 			(effects
 				(font
@@ -28871,7 +28785,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "33"
 			(at 81.28 161.29 90)
 			(effects
 				(font
@@ -28879,7 +28793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 77.47 162.56 0)
 			(effects
 				(font
@@ -28906,7 +28820,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1000T5E"
+		(property "PN" "0402WGF330JTCE"
 			(at 77.47 162.56 0)
 			(effects
 				(font
@@ -29077,7 +28991,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "51"
 			(at 50.8 85.09 90)
 			(effects
 				(font
@@ -29085,7 +28999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 46.99 86.36 0)
 			(effects
 				(font
@@ -29112,7 +29026,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1000T5E"
+		(property "PN" "0805W8F5100T5E"
 			(at 46.99 86.36 0)
 			(effects
 				(font
@@ -29494,7 +29408,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "51"
 			(at 50.8 73.66 90)
 			(effects
 				(font
@@ -29502,7 +29416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 46.99 74.93 0)
 			(effects
 				(font
@@ -29529,7 +29443,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1000T5E"
+		(property "PN" "0805W8F5100T5E"
 			(at 46.99 74.93 0)
 			(effects
 				(font
@@ -29572,7 +29486,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer"
+		(property "Value" "RA0901N0X0D"
 			(at 218.44 220.9799 0)
 			(effects
 				(font
@@ -29582,7 +29496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Encoder:RA0901N0X0D-HA1"
 			(at 220.98 219.71 0)
 			(effects
 				(font
@@ -29601,6 +29515,15 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 220.98 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RA0901N0X0D-HA1"
 			(at 220.98 219.71 0)
 			(effects
 				(font
@@ -29629,7 +29552,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 280.67 24.13 0)
+		(at 284.48 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29637,7 +29560,7 @@
 		(dnp no)
 		(uuid "c2d4920a-0728-439c-998c-8cc0c1ebb554")
 		(property "Reference" "C13"
-			(at 283.21 22.352 0)
+			(at 287.02 22.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29645,15 +29568,15 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 284.48 25.908 0)
+			(at 288.29 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 280.67 24.13 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 284.48 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29662,7 +29585,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 280.67 24.13 0)
+			(at 284.48 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29671,7 +29594,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 280.67 24.13 0)
+			(at 284.48 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CL05B104KO5NNNC"
+			(at 284.48 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29719,7 +29651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 265.43 24.13 0)
 			(effects
 				(font
@@ -29738,6 +29670,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 265.43 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CL05B104KO5NNNC"
 			(at 265.43 24.13 0)
 			(effects
 				(font
@@ -29786,7 +29727,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 68.58 113.03 0)
 			(effects
 				(font
@@ -29813,7 +29754,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1002T5E"
+		(property "PN" "0402WGF1002TCE"
 			(at 68.58 113.03 0)
 			(effects
 				(font
@@ -30286,6 +30227,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "CL10A225KO8NNNC"
+			(at 121.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "078a9558-8469-4543-be5c-c8dc4fb0e44e")
 		)
@@ -30447,7 +30397,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 322.58 124.46 0)
 			(effects
 				(font
@@ -30466,6 +30416,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 322.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CL05B104KO5NNNC"
 			(at 322.58 124.46 0)
 			(effects
 				(font
@@ -30494,7 +30453,7 @@
 		(at 285.75 128.27 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -30542,6 +30501,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PN" "dnp"
+			(at 285.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -30648,7 +30615,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "33"
 			(at 81.28 81.28 90)
 			(effects
 				(font
@@ -30656,7 +30623,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 77.47 82.55 0)
 			(effects
 				(font
@@ -30683,7 +30650,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1000T5E"
+		(property "PN" "0402WGF330JTCE"
 			(at 77.47 82.55 0)
 			(effects
 				(font
@@ -30709,7 +30676,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 167.64 148.59 180)
+		(at 165.1 148.59 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30717,7 +30684,7 @@
 		(dnp no)
 		(uuid "cd2542fe-129a-498b-a820-74600c7b74ba")
 		(property "Reference" "R58"
-			(at 164.592 147.828 0)
+			(at 162.052 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30725,15 +30692,15 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 164.592 149.606 0)
+			(at 162.052 149.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 167.64 148.59 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 165.1 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30742,7 +30709,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 148.59 0)
+			(at 165.1 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30751,7 +30718,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 167.64 148.59 0)
+			(at 165.1 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30759,8 +30726,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1002T5E"
-			(at 167.64 148.59 0)
+		(property "PN" "0402WGF1002TCE"
+			(at 165.1 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30802,8 +30769,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 264.16 165.1 0)
+		(property "Value" "EC110701N2B"
+			(at 277.114 157.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30811,7 +30778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Encoder:EC11EBB24C03_EC110701N2B"
 			(at 270.51 163.83 0)
 			(effects
 				(font
@@ -30838,6 +30805,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "EC110701N2B"
+			(at 270.51 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B2"
 			(uuid "b075b9da-58dd-4e50-a6ef-6dc352251fbd")
 		)
@@ -30845,31 +30821,107 @@
 			(uuid "b245de86-3adc-43b0-b37a-b72350a4696d")
 		)
 		(pin "MP"
-			(uuid "f69b741e-bd92-4a17-96d5-e1cada5df84e")
+			(uuid "f69b741e-bd92-4a17-96d5-e1cada5df850")
 		)
 		(pin "C2"
 			(uuid "ebf3a6c7-b927-41d0-8d5b-9cc63c0297ff")
 		)
 		(pin "C1"
-			(uuid "a2dbf887-70a2-4f69-ae57-744bb9b431c5")
+			(uuid "a2dbf887-70a2-4f69-ae57-744bb9b431c7")
 		)
 		(pin "B1"
-			(uuid "c3a84dc6-b80a-4cd0-9ed5-7f25d605de45")
+			(uuid "c3a84dc6-b80a-4cd0-9ed5-7f25d605de47")
 		)
 		(pin "E"
-			(uuid "e454360b-d677-4e08-94b2-5e6badf5317c")
+			(uuid "e454360b-d677-4e08-94b2-5e6badf5317e")
 		)
 		(pin "D"
-			(uuid "fa80ab88-68a0-434c-94f9-4238c173735d")
+			(uuid "fa80ab88-68a0-434c-94f9-4238c173735f")
 		)
 		(pin "A1"
-			(uuid "bea3ed8c-4c53-4453-8e84-4f8a6b741857")
+			(uuid "bea3ed8c-4c53-4453-8e84-4f8a6b741859")
 		)
 		(instances
 			(project "Com-Nav-Radio"
 				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
 					(reference "SW2")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 176.53 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce9587d5-55b4-43e4-a7e3-6b38c903c5d6")
+		(property "Reference" "R26"
+			(at 172.212 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 180.34 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 176.53 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 176.53 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "0402WGF330JTCE"
+			(at 176.53 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e3b40786-758a-4706-8b4c-b963d936e148")
+		)
+		(pin "1"
+			(uuid "45354140-0930-4870-b759-5301c1e247b4")
+		)
+		(instances
+			(project "Com-Nav-Radio"
+				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
+					(reference "R26")
+					(unit 1)
 				)
 			)
 		)
@@ -30929,6 +30981,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "AO3401A"
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "18917a04-04d0-42cd-9ee5-a4999c618cd6")
 		)
@@ -30973,7 +31034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 248.92 166.37 0)
 			(effects
 				(font
@@ -31000,7 +31061,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1002T5E"
+		(property "PN" "0402WGF1002TCE"
 			(at 248.92 166.37 0)
 			(effects
 				(font
@@ -31076,6 +31137,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "CL10A225KO8NNNC"
+			(at 203.2 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "764779d8-bb3f-4410-bf72-52097ada6d30")
 		)
@@ -31108,7 +31178,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "51"
 			(at 50.8 153.67 90)
 			(effects
 				(font
@@ -31116,7 +31186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 46.99 154.94 0)
 			(effects
 				(font
@@ -31143,7 +31213,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1000T5E"
+		(property "PN" "0805W8F5100T5E"
 			(at 46.99 154.94 0)
 			(effects
 				(font
@@ -31287,6 +31357,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "AO3401A"
+			(at 58.42 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "440b7a17-134a-4d6d-9284-bdf69ff76cf1")
 		)
@@ -31324,7 +31403,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer"
+		(property "Value" "RA0901N0X0D"
 			(at 243.84 220.9799 0)
 			(effects
 				(font
@@ -31334,7 +31413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Encoder:RA0901N0X0D-HA1"
 			(at 246.38 219.71 0)
 			(effects
 				(font
@@ -31353,6 +31432,15 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 246.38 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RA0901N0X0D-HA1"
 			(at 246.38 219.71 0)
 			(effects
 				(font
@@ -31498,6 +31586,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "CL10A225KO8NNNC"
+			(at 151.13 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d89377d-d3ba-4fa0-b2e1-6300bc66a8c5")
 		)
@@ -31580,7 +31677,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 207.01 59.69 270)
+		(at 157.48 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31588,23 +31685,23 @@
 		(dnp no)
 		(uuid "dd539309-e6fd-44a2-9db9-ca70b6b772f2")
 		(property "Reference" "R25"
-			(at 203.708 58.42 90)
+			(at 154.178 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 210.82 58.42 90)
+		(property "Value" "33"
+			(at 161.29 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 207.01 59.69 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 157.48 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31613,7 +31710,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 59.69 0)
+			(at 157.48 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31622,7 +31719,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 207.01 59.69 0)
+			(at 157.48 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31630,8 +31727,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1000T5E"
-			(at 207.01 59.69 0)
+		(property "PN" "0402WGF330JTCE"
+			(at 157.48 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31671,7 +31768,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "33"
 			(at 264.16 45.72 90)
 			(effects
 				(font
@@ -31679,7 +31776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 260.35 46.99 0)
 			(effects
 				(font
@@ -31706,7 +31803,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1000T5E"
+		(property "PN" "0402WGF330JTCE"
 			(at 260.35 46.99 0)
 			(effects
 				(font
@@ -31850,6 +31947,14 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "ULN2003A"
+			(at 377.19 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "16"
 			(uuid "c7ca4a76-7468-448b-8000-1e94f10d0490")
 		)
@@ -31990,7 +32095,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "33"
 			(at 81.28 138.43 90)
 			(effects
 				(font
@@ -31998,7 +32103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 77.47 139.7 0)
 			(effects
 				(font
@@ -32025,7 +32130,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1000T5E"
+		(property "PN" "0402WGF330JTCE"
 			(at 77.47 139.7 0)
 			(effects
 				(font
@@ -32051,7 +32156,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 318.77 62.23 90)
+		(at 320.04 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32059,7 +32164,7 @@
 		(dnp no)
 		(uuid "e48e818d-dee0-4fce-8149-879cc8f236f7")
 		(property "Reference" "#PWR065"
-			(at 322.58 62.23 0)
+			(at 323.85 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32068,7 +32173,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 316.992 65.024 90)
+			(at 318.262 65.024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32076,7 +32181,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 318.77 62.23 0)
+			(at 320.04 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32085,7 +32190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 318.77 62.23 0)
+			(at 320.04 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32094,7 +32199,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 318.77 62.23 0)
+			(at 320.04 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32168,6 +32273,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "*** MAYBE CHANGE FOR SMD"
+			(at 208.28 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e479685-c932-4a3d-97dd-6eb4379ecf21")
 		)
@@ -32230,6 +32344,15 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 58.42 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "AO3401A"
 			(at 58.42 157.48 0)
 			(effects
 				(font
@@ -32402,7 +32525,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "51"
 			(at 50.8 142.24 90)
 			(effects
 				(font
@@ -32410,7 +32533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 46.99 143.51 0)
 			(effects
 				(font
@@ -32437,7 +32560,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1000T5E"
+		(property "PN" "0805W8F5100T5E"
 			(at 46.99 143.51 0)
 			(effects
 				(font
@@ -32609,7 +32732,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 257.81 21.59 0)
+		(at 255.27 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32618,7 +32741,7 @@
 		(fields_autoplaced yes)
 		(uuid "f731d389-8387-4f86-8938-c93d576e98e1")
 		(property "Reference" "#PWR022"
-			(at 257.81 25.4 0)
+			(at 255.27 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32627,7 +32750,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 257.81 16.51 0)
+			(at 255.27 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32635,7 +32758,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 21.59 0)
+			(at 255.27 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32644,7 +32767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 21.59 0)
+			(at 255.27 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32653,7 +32776,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 257.81 21.59 0)
+			(at 255.27 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32680,7 +32803,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f76cb626-8ec4-4f10-9951-e3ba9f1199e7")
 		(property "Reference" "J2"
 			(at 283.21 95.25 0)
@@ -32984,7 +33107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 68.58 135.89 0)
 			(effects
 				(font
@@ -33011,7 +33134,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0603WAF1002T5E"
+		(property "PN" "0402WGF1002TCE"
 			(at 68.58 135.89 0)
 			(effects
 				(font
