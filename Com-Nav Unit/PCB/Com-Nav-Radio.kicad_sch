@@ -382,6 +382,210 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -10019,6 +10223,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 80.01) (xy 257.81 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22935680-2745-421e-bc47-01d53896093a")
+	)
+	(wire
+		(pts
 			(xy 106.68 120.65) (xy 106.68 132.08)
 		)
 		(stroke
@@ -10377,6 +10591,16 @@
 		)
 		(uuid "2f2614e7-6fa5-4dda-83c5-a4a18d35ff49")
 	)
+	(wire
+		(pts
+			(xy 274.32 80.01) (xy 283.21 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "303988d9-de44-41e9-b63d-507459e4d808")
+	)
 	(bus
 		(pts
 			(xy 194.31 85.09) (xy 194.31 92.71)
@@ -10426,6 +10650,16 @@
 			(type default)
 		)
 		(uuid "323e6a01-427b-4888-9c30-6423c07b83c0")
+	)
+	(wire
+		(pts
+			(xy 279.4 85.09) (xy 283.21 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324489ed-87b4-4278-9b73-12b943ce4e1a")
 	)
 	(wire
 		(pts
@@ -13819,6 +14053,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 67.31) (xy 257.81 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f797c91-a38c-4f86-aa23-79940e52fdaa")
+	)
+	(wire
+		(pts
 			(xy 196.85 105.41) (xy 212.09 105.41)
 		)
 		(stroke
@@ -16207,6 +16451,16 @@
 		)
 		(uuid "edd98139-00b4-4caf-b846-ac7ddee24467")
 	)
+	(wire
+		(pts
+			(xy 279.4 86.36) (xy 279.4 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede161d0-21ff-4ff2-8ea2-2f85054894b6")
+	)
 	(bus
 		(pts
 			(xy 48.26 262.89) (xy 52.07 262.89)
@@ -16726,6 +16980,16 @@
 			(type default)
 		)
 		(uuid "ff26d235-e58e-4ba5-89d5-9ea780d4b651")
+	)
+	(wire
+		(pts
+			(xy 274.32 82.55) (xy 283.21 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff7adf08-03fd-4348-96b6-ff77784d6367")
 	)
 	(label "SEG7"
 		(at 165.1 193.04 90)
@@ -17377,6 +17641,16 @@
 		)
 		(uuid "5082bb17-1fa4-479f-a3bc-17a63b2d7a35")
 	)
+	(label "UART1_TX"
+		(at 274.32 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50b7479d-f579-40ce-83da-d1f2ad579f29")
+	)
 	(label "SEG5"
 		(at 34.29 120.65 0)
 		(effects
@@ -17416,6 +17690,16 @@
 			(justify left bottom)
 		)
 		(uuid "52583bb6-b3a1-4938-863e-05b3e9ebdb62")
+	)
+	(label "UART1_TX"
+		(at 257.81 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "529a779c-b8e8-4cf3-9ab7-bec2dede7871")
 	)
 	(label "SWDCLK"
 		(at 256.54 77.47 180)
@@ -18607,6 +18891,16 @@
 		)
 		(uuid "e2284d49-b376-4e5d-a864-0f024c307c3c")
 	)
+	(label "UART1_RX"
+		(at 257.81 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e255fc54-213d-4e6d-aa94-61643dfcc57b")
+	)
 	(label "SEG_CT7"
 		(at 97.79 151.13 180)
 		(effects
@@ -18816,6 +19110,16 @@
 			(justify right bottom)
 		)
 		(uuid "fb49a821-905d-4787-9d2e-cc257de8e008")
+	)
+	(label "UART1_RX"
+		(at 274.32 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc23a3e8-7a8b-4633-93ed-5e13ab5df4a5")
 	)
 	(label "DIG28"
 		(at 410.21 180.34 180)
@@ -26731,6 +27035,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 288.29 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "8f2308bb-c378-4814-84cc-bcaf485ae413")
+		(property "Reference" "J4"
+			(at 289.56 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 289.56 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 288.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 288.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 288.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8c3a5353-1384-4944-ae2b-f6824c93c0b9")
+		)
+		(pin "1"
+			(uuid "870300f5-897e-4b34-aa24-60b29dca6fcc")
+		)
+		(pin "2"
+			(uuid "2347b748-e29f-447b-8ba4-422166fcb33e")
+		)
+		(instances
+			(project ""
+				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 270.51 96.52 0)
 		(unit 1)
@@ -28051,6 +28428,70 @@
 			(project "Com-Nav-Radio"
 				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 279.4 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac698d9e-8786-4fce-bbe3-6c93aae89f40")
+		(property "Reference" "#PWR077"
+			(at 279.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 275.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 279.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49c4629e-db66-4afb-886a-d28916ee840d")
+		)
+		(instances
+			(project "Com-Nav-Radio"
+				(path "/69049761-9f2d-47f8-b9f8-414f51a5cecf"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
